@@ -1,14 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body {
+    background: linear-gradient(#161a1d, #660708);
 }
 
 main#container {
+
 }
 
 h1.titulo {
+    font-family: 'Bebas Neue', cursive;
+    color:#f5f3f4;
 }
-
+    
 p.frase {
+    font-family: 'Cabin', sans-serif;
+    color:#ffffff;
 }
 
 p.autor {
+    font-family: 'Caveat', cursive;
+    color:#ffffff;
 }
