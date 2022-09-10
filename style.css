@@ -1,30 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{ 
+    -textcolor: #000000;
+}
 body {
-    background: linear-gradient(#360404, #6e090a);
+    background: rgb(84,11,14);
+    background: linear-gradient(rgba(84,11,14,1), rgba(158,42,43,1));
     
 }
 
+img {
+    width: 100px;
+}
 main#container {
+    text-align: center;
     width: 600px;
     height: 300px;
-    border: 150px solid rgb(29, 27, 27);
+    border: 150px solid #ce9032;
     box-sizing: border-box;
+    border-radius: 1rem;
+    box-shadow: 0 0.6rem 10px 10px #5a0d0f;
 }
 
 h1.titulo {
     font-family: 'Bebas Neue', cursive;
-    color:#f5f3f4;
-    
+    color: var(-textcolor);
 }
     
 p.frase {
     font-family: 'Cabin', sans-serif;
-    color:#ffffff;
+    color: var(-textcolor);
 }
 
 p.autor {
     font-family: 'Caveat', cursive;
-    color:#ffffff;
+    color: var(-textcolor);
 }
